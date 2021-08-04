@@ -176,9 +176,9 @@ Future<PreviewData> getPreviewData(String text) async {
       );
     }
 
-    if (!_hasUTF8Charset(document)) {
-      return previewData;
-    }
+    // if (!_hasUTF8Charset(document)) {
+    //   return previewData;
+    // }
 
     final title = _getTitle(document);
     if (title != null) {
